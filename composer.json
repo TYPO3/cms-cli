@@ -1,0 +1,19 @@
+{
+	"name": "typo3/cms-cli",
+	"description": "TYPO3 command line binary",
+	"homepage": "https://typo3.org",
+	"license": ["GPL-2.0+"],
+
+	"require": {
+		"php" : "^7.0",
+		"typo3/cms-core": "^8.7 || ^9.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"TYPO3\\CMS\\Cli\\": "src"
+		}
+	},
+	"bin": [
+		"typo3"
+	]
+}
