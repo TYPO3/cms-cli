@@ -7,11 +7,6 @@
 	"require": {
 		"php" : "^7.0"
 	},
-	"autoload": {
-		"psr-4": {
-			"TYPO3\\CMS\\Cli\\": "src"
-		}
-	},
 	"bin": [
 		"typo3"
 	]
