@@ -6,9 +6,6 @@
 	"require": {
 		"php" : "^7.0 || ^8.0"
 	},
-	"conflict": {
-        "phpstan/phpdoc-parser": "<1.30"
-	},
 	"bin": [
 		"typo3"
 	]
